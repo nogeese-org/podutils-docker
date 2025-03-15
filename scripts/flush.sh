@@ -5,4 +5,6 @@ sudo touch records/0
 sudo echo "SYS:ARCH:$arch" >> records/0
 sudo touch data/sh
 sudo echo "SYS:SH:bash" >> data/sh
+sudo mkdir -p /nogeese /etc/flush /nogeese/f.sh.d/
+sudo touch /nogeese/f.sh
 exit 1
